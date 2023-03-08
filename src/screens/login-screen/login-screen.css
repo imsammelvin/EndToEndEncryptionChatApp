@@ -1,0 +1,46 @@
+.login-screen{
+    background-color: rgb(66, 65, 65);
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 100%;
+}
+
+.title{
+    padding-top: 3vh;
+    font-size: 130%;
+    text-align: center;
+}
+
+.input{
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.input input{
+    background-color: rgb(162, 162, 162);
+    height: 20px;
+    min-width: 200px;
+    font-size: 90%;
+    color: white;
+}
+
+.buttongrp{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.button{
+    height: 30px;
+    width: 12vw;
+    min-width:100px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgb(16, 123, 230);
+}
+

@@ -1,0 +1,126 @@
+.conversation-messages{
+    overflow-y: auto;
+    height: 67vh;
+    padding: 0vh,1vh,0vh,1vh;
+    padding-bottom: 1vh;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    overflow: auto;
+}
+
+.input-container button{
+    height:37px;
+    margin-top: 10vh;
+    margin-right: 0.5vh;
+    width: 5vw;
+    min-width: 50px;
+    font-size: 16px;
+}
+.input-container button:hover{
+    background-color: silver;
+}
+
+.input-message input{
+    margin-top: 8vh;
+    width: 47.5vw;
+    min-width: 300px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 0.5vh;
+    float: left;
+}
+
+.receiver{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.message-container{
+    display: flex;    
+}
+
+.message-content{
+    font-size: 18px;
+    background-color: rgb(16, 123, 230);
+    margin: 0.5vh,0vh,0.5vh,0vh;
+    margin-top: 1vh;
+    border-bottom: 1px solid white;
+    padding: 0.5vh;
+    border-radius: 10px;
+    min-width: 8vh;
+    color: white;
+}
+
+.chatscreen{
+    width: 100%;
+    background-color: rgb(16, 123, 230);
+    color: white;
+}
+
+.chat{
+    width: 65%;
+    height: 90vh;
+    margin-top: auto;
+    float: left;
+    background-color:rgb(66, 65, 65);
+    overflow: auto;
+}
+
+.chat p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.encryption-elements{
+    background-color: rgb(16, 123, 230);
+    color: white;
+    height: 90vh;
+    font-size: 18px;
+    overflow: auto;
+}
+
+form{
+    margin-left: 2vw;
+}
+
+input{
+    width:20vw;
+    height: 20px;
+    font-size: 16px;
+}
+
+.nochat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:87vh;
+    background-color:rgb(66, 65, 65);
+
+}
+
+.nochat p{
+    font-size: 28px;
+}
+
+@media only screen and (max-width:480px){
+    .chat{
+        min-width: 365px;
+    }
+    .input-message input{
+        min-width: 610px;
+    }
+    .encryption-elements input{
+        min-width:300px
+    }
+}
+
+
+
+
+
